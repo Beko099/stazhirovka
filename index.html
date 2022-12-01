@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Заявка на стажировку</h1>
+    <section>
+        <div class="left-block">
+            <div class="personal-data">
+                <input type="text" value="Jhon Doe">
+                <input type="number" placeholder="Возраст">
+                <input type="email" placeholder="email">
+            </div>       
+            <h2>О себе</h2>
+            <textarea name="text-1" id="" cols="30" rows="10" placeholder="Расскажите о своем опыте"></textarea>       
+        </div>
+        <div class="right-block">
+            <input type="file" alt="" name="pic-1" id="pic-1-1" class="real-file">
+            <label for="pic-1-1">
+                <div class="fake-text">Загрузить фотографию</div>
+            </label>
+            <h2>Текущий уровень знаний</h2>
+            <div class="range-main">
+                <input type="range">
+                <div class="level">
+                   <span>1</span>
+                   <span>2</span>
+                   <span>3</span>
+                   <span>4</span>
+                   <span>5</span>
+                </div>                               
+            </div>
+            <h2>Выберите срок стажировки</h2>
+            <select name="time" id="time">
+                <option value="0">3 месяца</option>
+                <option value="1">6 месяцев</option>
+                <option value="2">1 год</option>
+            </select>           
+        </div>       
+    </section>
+    <footer>
+        <input type="file" name="file-2" id="file-2-1" class="real-file">
+        <label for="file-2-1">
+            <div class="fake-text-2">Отправить анкету</div>
+        </label>
+    </footer>
+    
+</body>
+</html>
